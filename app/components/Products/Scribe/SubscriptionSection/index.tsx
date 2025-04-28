@@ -7,56 +7,79 @@ import { GoArrowUpRight } from "react-icons/go";
 const SubscriptionSection = () => {
   const subscriptionPlans = [
     {
-      title: "Basic",
+      title: "Free Plan",
       imageUrl: "/images/scribe/feature1.png",
-      price: 10,
+      price: "0$",
+      priceType: "/month",
+      description:
+        "Ideal for individuals who want to try our medical scribing solution with limited usage.",
       features: [
-        "Lorem Ipsum is simply dummy text",
-        "The printing and  typesetting. Lorem",
-        "Ipsum is simply dummy text of the",
-        "Printing and  typesetting",
+        "Limited number of consultations per month",
+        "Basic AI-powered transcription",
+        "Secure cloud storage",
+        "Access to standard templates",
       ],
       redirectUrl: "/",
       highlight: false,
     },
     {
-      title: "Standard",
+      title: "Practitioner Plan",
       imageUrl: "/images/scribe/feature1.png",
-      price: 20,
+      price: "XX$",
+      priceType: "/month per user",
+      description:
+        "Designed for General Practitioners and Specialists who need reliable medical scribing for daily consultations.",
       features: [
-        "Lorem Ipsum is simply dummy text",
-        "The printing and  typesetting. Lorem",
-        "Ipsum is simply dummy text of the",
-        "Printing and  typesetting",
+        "Unlimited consultations",
+        "Advanced AI-powered transcription with improved accuracy",
+        "Customizable templates for specialties",
+        "Telehealth integration",
+        "Additional login for nurse/secretary",
+        "Priority support",
       ],
       redirectUrl: "/",
       highlight: true,
     },
     {
-      title: "Premium",
+      title: "Enterprise Plan",
       imageUrl: "/images/scribe/feature1.png",
-      price: 30,
+      price: "Custom Pricing",
+      priceType: "",
+      description:
+        "Tailored for healthcare organizations requiring scalable, high-performance scribing solutions with dedicated infrastructure.",
       features: [
-        "Lorem Ipsum is simply dummy text",
-        "The printing and  typesetting. Lorem",
-        "Ipsum is simply dummy text of the",
-        "Printing and  typesetting",
+        "All Practitioner Plan features",
+        "Custom features based on organizational needs",
+        "Dedicated hosting for enhanced security",
+        "API access and integrations",
+        "EHR system integration",
+        "24/7 enterprise support",
       ],
       redirectUrl: "/",
       highlight: false,
+      altBuyText: (
+        <span>
+          Interested in the Enterprise Plan?{" "}
+          <span className={styles.highlightText}>Contact us</span> for a
+          customized solution.
+        </span>
+      ),
     },
   ];
   return (
     <section className="boxWrapper">
       <div className={styles.contentWrapper}>
-        <div className={styles.header}>
-          <h4>Why Scribe?</h4>
+        <div className={styles.headerTextSection}>
+          <h2>Get Started with Scribe</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-            odit enim consequatur quo perspiciatis animi laborum, id officiis
-            nostrum debitis!
+            Flexible Subscription Options Tailored to Your Practice&apos;s
+            Unique Documentation Needs
           </p>
         </div>
+        {/* <div className={styles.header}>
+          <h4>Get Started with Scribe</h4>
+          <p></p>
+        </div> */}
 
         <div className={styles.subscriptionGrid}>
           {subscriptionPlans.map((plan, index) => (
@@ -74,18 +97,25 @@ const SubscriptionSection = () => {
                 height={500}
               />
               <div>
-                <span className={styles.price}>{plan.price}$ </span>
-                <span className={styles.planFrequency}>/month</span>
+                <span className={styles.price}>{plan.price}</span>
+                <span className={styles.planFrequency}>{plan.priceType}</span>
               </div>
+              <p className={styles.planDescription}>{plan.description}</p>
               <ul className={styles.features}>
                 {plan.features.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
-              <Link href={plan.redirectUrl} className="ctaBtn">
-                <span>Buy Now</span>
-                <GoArrowUpRight className="ctaArrow" />
-              </Link>
+              {plan.altBuyText ? (
+                <Link href={plan.redirectUrl} className={styles.altTextCta}>
+                  {plan.altBuyText}
+                </Link>
+              ) : (
+                <Link href={plan.redirectUrl} className="ctaBtn">
+                  <span>Buy Now</span>
+                  <GoArrowUpRight className="ctaArrow" />
+                </Link>
+              )}
             </div>
           ))}
         </div>

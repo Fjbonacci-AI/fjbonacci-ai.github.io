@@ -8,32 +8,32 @@ const OverviewSection = () => {
   return (
     <section className={styles.mainDiv}>
       <div className={`boxWrapper ${styles.contentWrapper}`}>
-        <h2>
-          An AI-powered tool designed to simplify, automate, and enhance
-          productivity
-        </h2>
+        <div className={styles.headerTextSection}>
+          <h2>AI-Powered Medical Scribing for Smarter Healthcare</h2>
+          <p>Save time, enhance accuracy, and streamline your workflow</p>
+        </div>
         <div className={styles.overviewWrapper}>
           <div className={styles.overviewContent}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting <br />{" "}
+              Our AI-powered medical scribing platform revolutionizes the way
+              healthcare providers manage patient documentation. By automating
+              the note-taking process, we help clinicians reclaim valuable time,
+              reduce administrative burden, and minimize human error. With
+              real-time transcription, intelligent summarization, and seamless
+              EHR integration, our technology ensures that every patient
+              encounter is accurately captured — freeing you to focus more on
+              patient care rather than paperwork.
               <br />
-              industry. Lorem Ipsum has been the industry&apos;s standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting <br />{" "}
               <br />
-              industry. Lorem Ipsum has been the industry&apos;s standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard
+              Whether you’re in a busy hospital, a private practice, or a
+              telehealth setting, our solution adapts to your workflow, improves
+              documentation consistency, and enhances billing accuracy. Secure,
+              HIPAA-compliant, and easy to deploy, our platform is built to
+              support the future of healthcare — where clinical excellence meets
+              operational efficiency.
             </p>
             <Link href={""} className="ctaBtn">
-              <span>Try Demo</span>
+              <span>Get Started for Free</span>
               <GoArrowUpRight className="ctaArrow" />
             </Link>
           </div>

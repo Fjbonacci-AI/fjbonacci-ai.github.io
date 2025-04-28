@@ -1,7 +1,16 @@
+.headerTextSection {
+  text-align: center;
+}
+
+.headerTextSection > p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
 .contentWrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 60px;
 }
 
 .header {
@@ -53,11 +62,29 @@
   color: #864dd9;
 }
 
+.planDescription {
+  text-align: center;
+}
+
 .features {
-  list-style: none;
+  /* list-style: none; */
+  margin-left: 1rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  /* color: var(--secondary-text); */
+  align-self: flex-start;
+}
+
+.altTextCta {
   color: var(--secondary-text);
+  font-size: 14px;
+  font-weight: 400;
   text-align: center;
+  margin-top: 20px;
+}
+
+.highlightText {
+  color: #864dd9;
+  font-weight: 600;
 }

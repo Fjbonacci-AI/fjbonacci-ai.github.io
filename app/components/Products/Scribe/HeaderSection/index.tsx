@@ -10,7 +10,7 @@ const HeaderSection = () => {
       <div className="boxWrapper">
         <div
           className={styles.contentWrapper}
-          style={{ backgroundImage: "url('/images/home/hero-image.png')" }}
+          style={{ backgroundImage: "url('/images/scribe/consulting.jpeg')" }}
         >
           <h1>
             Introducing <br />

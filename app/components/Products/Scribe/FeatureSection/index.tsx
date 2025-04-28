@@ -5,35 +5,48 @@ import Image from "next/image";
 const FeatureSection = () => {
   const features = [
     {
-      title: "Efficiency",
-      img: "/images/scribe/feature1.png",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est, voluptas quod voluptates molestias quo a distinctio. Id molestiae excepturi dolores quam. Officiis, ipsum atque?",
+      title: "Time-Saving",
+      img: "/images/scribe/time-illustration.png",
+      description: "Automate documentation and focus on patient care",
     },
     {
-      title: "Efficiency",
-      img: "/images/scribe/feature1.png",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est, voluptas quod voluptates molestias quo a distinctio. Id molestiae excepturi dolores quam. Officiis, ipsum atque?",
+      title: "Security",
+      img: "/images/scribe/security-illustration.png",
+      description: "End-to-end encryption with local data storage in Australia",
     },
     {
-      title: "Efficiency",
-      img: "/images/scribe/feature1.png",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est, voluptas quod voluptates molestias quo a distinctio. Id molestiae excepturi dolores quam. Officiis, ipsum atque?",
+      title: "24/7 Support",
+      img: "/images/scribe/contact-illustration.png",
+      description: "Reliable assistance for uninterrupted workflow",
+    },
+    {
+      title: "Intuitive Design",
+      img: "/images/scribe/idea-illustration.png",
+      description: "Seamless user experience with minimal training",
+    },
+    {
+      title: "Automation",
+      img: "/images/scribe/robot-illustration.png",
+      description: "AI-powered reporting and summarization",
     },
   ];
   return (
     <section className={styles.mainDiv}>
       <div className={`boxWrapper ${styles.contentWrapper}`}>
-        <div className={styles.header}>
-          <h4>Why Scribe?</h4>
+        <div className={styles.headerTextSection}>
+          <h2>Key Highlights of Scribe App</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-            odit enim consequatur quo perspiciatis animi laborum, id officiis
-            nostrum debitis!
+            Comprehensive Features Designed to Transform Your Healthcare
+            Documentation Workflow
           </p>
         </div>
+        {/* <div className={styles.header}>
+          <h4>Why Scribe?</h4>
+          <p>
+            Key Highlights of Scribe that make it the best choice for your
+            practice
+          </p>
+        </div> */}
 
         <div className={styles.featureGrid}>
           {features.map((feature, index) => (
