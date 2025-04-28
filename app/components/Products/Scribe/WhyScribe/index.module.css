@@ -1,0 +1,45 @@
+.headerTextSection {
+  text-align: center;
+}
+
+.headerTextSection > p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header > p {
+  max-width: 60%;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #e3e1ef;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.feature > p {
+  color: #8686a8;
+  font-weight: 300;
+}
