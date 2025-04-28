@@ -5,6 +5,7 @@
   left: 0;
   right: 0;
   background-color: white;
+  z-index: 40;
 }
 
 .topNav {
@@ -51,6 +52,7 @@
   position: absolute;
   background-color: white;
   width: 30%;
+  min-width: max-content;
   height: calc(100vh - 80px);
   padding: 40px;
   border-right: 1px solid var(--sec-background);
