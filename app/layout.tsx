@@ -6,6 +6,7 @@ import NavbarLayout from "./components/Layout/Navbar";
 
 const geologica = Geologica({
   variable: "--font-geologica",
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
