@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 import Link from "next/link";
 import { HiMenuAlt3 } from "react-icons/hi";
 import Image from "next/image";
-import { GoChevronRight } from "react-icons/go";
+// import { GoChevronRight } from "react-icons/go";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 
@@ -34,7 +34,7 @@ const MobileNavbar = () => {
       </div>
 
       <nav className={`${styles.navbar} ${menuOpen ? styles.menuOpen : ""}`}>
-        <ul className={styles.navLinks}>
+        {/* <ul className={styles.navLinks}>
           <li>
             <Link href={"/"}>
               <GoChevronRight />
@@ -65,7 +65,7 @@ const MobileNavbar = () => {
               Careers
             </Link>
           </li>
-        </ul>
+        </ul> */}
 
         <div className={styles.socialLinksWrapper}>
           <span>Follow Us</span>

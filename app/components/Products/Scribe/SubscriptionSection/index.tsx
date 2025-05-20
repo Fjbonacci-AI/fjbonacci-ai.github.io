@@ -107,14 +107,23 @@ const SubscriptionSection = () => {
                 ))}
               </ul>
               {plan.altBuyText ? (
-                <Link href={plan.redirectUrl} className={styles.altTextCta}>
-                  {plan.altBuyText}
-                </Link>
+                <div className={styles.altBuyTextWrapper}>
+                  <p className={styles.altTextCta}>{plan.altBuyText}</p>
+                  <Link href={plan.redirectUrl} className="ctaBtn">
+                    <span>Contact Us</span>
+                    <GoArrowUpRight className="ctaArrow" />
+                  </Link>
+                </div>
               ) : (
-                <Link href={plan.redirectUrl} className="ctaBtn">
-                  <span>Buy Now</span>
-                  <GoArrowUpRight className="ctaArrow" />
-                </Link>
+                <div className={styles.altBuyTextWrapper}>
+                  <Link
+                    href={plan.redirectUrl}
+                    className={`ctaBtn ${styles.ctaBtnWrapper}`}
+                  >
+                    <span>Buy Now</span>
+                    <GoArrowUpRight className="ctaArrow" />
+                  </Link>
+                </div>
               )}
             </div>
           ))}

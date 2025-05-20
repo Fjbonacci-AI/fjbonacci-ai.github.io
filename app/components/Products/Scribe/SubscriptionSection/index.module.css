@@ -81,10 +81,18 @@
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  margin-top: 20px;
 }
 
 .highlightText {
   color: #864dd9;
   font-weight: 600;
+}
+
+.altBuyTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
 }

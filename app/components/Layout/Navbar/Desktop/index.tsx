@@ -15,7 +15,7 @@ const DesktopNavbar = () => {
           height={378}
         />
       </Link>
-      <ul className={styles.navLinks}>
+      {/* <ul className={styles.navLinks}>
         <li>
           <Link href={"/"}>Home</Link>
         </li>
@@ -31,7 +31,7 @@ const DesktopNavbar = () => {
         <li>
           <Link href={"/careers"}>Careers</Link>
         </li>
-      </ul>
+      </ul> */}
 
       <Link href={"/contact"} className="ctaBtn">
         <span>Contact Us</span>
