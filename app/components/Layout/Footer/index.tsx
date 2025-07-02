@@ -18,8 +18,8 @@ const Footer = () => {
             height={378}
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-            error!
+            Unlock the Future of Innovation with Cutting-Edge Generative AI
+            Products.
           </p>
         </div>
 
@@ -27,16 +27,16 @@ const Footer = () => {
           <h4>Quick Access</h4>
           <ul className={styles.links}>
             <li>
-              <Link href={""}>Home</Link>
+              <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={""}>Scribe</Link>
+              <Link href={""}>Echo Note</Link>
             </li>
             <li>
-              <Link href={""}>Privacy Policy</Link>
+              <Link href={"/privacy-policy"}>Privacy Policy</Link>
             </li>
             <li>
-              <Link href={""}>Terms & Conditions</Link>
+              <Link href={"/terms-and-conditions"}>Terms & Conditions</Link>
             </li>
           </ul>
         </div>
@@ -46,12 +46,12 @@ const Footer = () => {
           <ul className={styles.contactDetails}>
             <li>
               <h6>Email</h6>
-              <span>johndoe2gmail.com</span>
+              <span>info@fjbonacci.com</span>
             </li>
             <li>
               <h6>Phone</h6>
-              <span>+123 456 7890</span>
-              <span>+123 456 7890</span>
+              <span>+61 434 245 715</span>
+              <span>+61 468 561 430</span>
             </li>
           </ul>
         </div>
@@ -60,12 +60,12 @@ const Footer = () => {
           <h4>Follow Us</h4>
           <ul className={styles.socialLinks}>
             <li>
-              <Link href={""}>
+              <Link href={"https://www.linkedin.com/company/fjbonacci/"}>
                 <FaLinkedin />
               </Link>
             </li>
             <li>
-              <Link href={""}>
+              <Link href={"https://github.com/fjbonacci"}>
                 <FaGithub />
               </Link>
             </li>

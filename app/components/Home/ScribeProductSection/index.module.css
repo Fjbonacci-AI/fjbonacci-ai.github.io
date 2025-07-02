@@ -17,6 +17,7 @@
 
 .header > p {
   max-width: 60%;
+  text-align: right;
 }
 
 .imageGrid {
@@ -25,10 +26,15 @@
   gap: 40px;
 }
 
-.imageGrid > img {
+.imageGrid img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16/9;
+  aspect-ratio: auto;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 8px;
+}
+
+.imageGrid h4 {
+  margin-top: 12px;
+  /* font-size: 1.2rem; */
 }

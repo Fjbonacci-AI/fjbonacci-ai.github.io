@@ -6,20 +6,20 @@ import { IoMailOpenOutline } from "react-icons/io5";
 
 const ContactUsSection = () => {
   return (
-    <section className={styles.mainDiv}>
+    <section className={styles.mainDiv} id="contact">
       <div className={`boxWrapper ${styles.contentWrapper}`}>
         <div className={styles.header}>
           <h4>Contact Us</h4>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
             odit enim consequatur quo perspiciatis animi laborum, id officiis
             nostrum debitis!
-          </p>
+          </p> */}
         </div>
 
         <div className={styles.contactWrapper}>
           <Image
-            src={"/images/team/team-1.png"}
+            src={"/images/home/contact.jpg"}
             alt={"Contact Us"}
             className={styles.contactImage}
             width={500}

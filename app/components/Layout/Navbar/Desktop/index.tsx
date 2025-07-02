@@ -33,7 +33,7 @@ const DesktopNavbar = () => {
         </li>
       </ul> */}
 
-      <Link href={"/contact"} className="ctaBtn">
+      <Link href={"/#contact"} className="ctaBtn">
         <span>Contact Us</span>
       </Link>
     </nav>

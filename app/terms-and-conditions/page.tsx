@@ -1,0 +1,476 @@
+import React from "react";
+import styles from "./page.module.css";
+
+const TermsAndConditions = () => {
+  return (
+    <section className={styles.mainDiv}>
+      <div className="boxWrapper">
+        <h1>Terms of Service for NoteMate.com.au</h1>
+        <h4>Effective Date: [Insert Date - e.g., 10 June 2025]</h4>
+        <p>
+          Welcome to NoteMate.com.au! These Terms of Service (&quot;Terms&quot;)
+          govern your access to and use of the NoteMate website, services, and
+          applications (collectively, the &quot;Service&quot;) provided by
+          FJBonacci (&quot;NoteMate&quot;, &quot;we&quot;, &quot;us&quot;, or
+          &quot;our&quot;).
+        </p>
+        <p>
+          By accessing or using the Service, you agree to be bound by these
+          Terms and our Privacy Policy. If you do not agree to these Terms, you
+          must not access or use the Service.
+        </p>
+
+        <h4>1. About NoteMate and the Service</h4>
+        <p>
+          NoteMate provides healthcare scribing and document generation services
+          designed to assist healthcare practitioners in efficiently creating
+          clinical notes, referral letters, patient summaries, and other
+          healthcare-related documentation. Our Service aims to streamline
+          administrative processes, improve documentation accuracy, and enhance
+          practitioner efficiency.
+        </p>
+        <p>
+          <strong>IMPORTANT NOTE:</strong> NoteMate is an administrative support
+          tool. It is not a medical device, nor does it provide medical advice,
+          diagnosis, or treatment. All clinical decisions, patient care, and the
+          final responsibility for the accuracy and completeness of medical
+          records remain solely with the healthcare practitioner.
+        </p>
+
+        <h4>2. Eligibility and Account Registration</h4>
+        <p>
+          <strong>2.1 Eligibility:</strong> By using the Service, you represent
+          and warrant that:
+        </p>
+        <ul>
+          <li>
+            You are a registered healthcare practitioner or an authorised
+            representative of a healthcare practice located in Australia,
+            primarily operating under the laws of Victoria.
+          </li>
+          <li>
+            You possess the legal right and capacity to enter into a binding
+            agreement with NoteMate.
+          </li>
+          <li>
+            You will use the Service only for legitimate healthcare
+            administrative purposes, in accordance with all applicable laws and
+            professional obligations.
+          </li>
+        </ul>
+
+        <p>
+          <strong>2.2 Account Registration:</strong> To access certain features
+          of the Service, you must register for an account. You agree to:
+        </p>
+        <ul>
+          <li>
+            Provide accurate, current, and complete information during the
+            registration process and keep your account information updated.
+          </li>
+          <li>
+            Maintain the confidentiality and security of your account login
+            credentials.
+          </li>
+          <li>
+            Notify NoteMate immediately of any unauthorised use of your account
+            or any other breach of security.
+          </li>
+          <li>
+            Be responsible for all activities that occur under your account,
+            whether or not you authorised such activities.
+          </li>
+        </ul>
+
+        <h4>3. Practitioner Responsibilities</h4>
+        <p>
+          As a healthcare practitioner using NoteMate, you acknowledge and agree
+          to:
+        </p>
+
+        <p>
+          <strong>3.1 Informed Patient Consent:</strong> You are solely
+          responsible for obtaining and documenting explicit and informed
+          consent from your patients before using NoteMate for any consultation
+          or interaction where patient information will be processed. This
+          consent must cover:
+        </p>
+        <ul>
+          <li>
+            The use of a scribing or recording device during the consultation.
+          </li>
+          <li>
+            How their personal and health information will be collected, used,
+            stored, and disclosed by NoteMate (referencing our Privacy Policy).
+          </li>
+          <li>
+            That NoteMate is an administrative tool and does not provide medical
+            advice.
+          </li>
+          <li>
+            The patient&apos;s right to opt-out of the use of the scribe at any
+            time.
+          </li>
+        </ul>
+        <p>
+          You must document this consent (verbal or written) in the
+          patient&apos;s medical record.
+        </p>
+
+        <p>
+          <strong>3.2 Accuracy and Review:</strong> You are solely responsible
+          for the accuracy, completeness, and clinical appropriateness of all
+          documents generated by NoteMate. You must meticulously review, verify,
+          and edit all AI-generated content before it is finalised, signed off,
+          or entered into a patient&apos;s official medical record. NoteMate
+          does not guarantee 100% accuracy, and errors can occur.
+        </p>
+
+        <p>
+          <strong>
+            3.3 Compliance with Laws and Professional Obligations:
+          </strong>{" "}
+          You must comply with all applicable laws, regulations, and
+          professional obligations, including but not limited to:
+        </p>
+        <ul>
+          <li>
+            The Privacy Act 1988 (Cth) and the Australian Privacy Principles
+            (APPs).
+          </li>
+          <li>
+            The Health Records Act 2001 (Vic) and the Victorian Health Privacy
+            Principles (HPPs).
+          </li>
+          <li>
+            State and Territory surveillance devices legislation (e.g.,
+            Surveillance Devices Act 1999 (Vic)), particularly regarding the
+            recording of private conversations.
+          </li>
+          <li>
+            Your professional body&apos;s code of conduct and guidelines (e.g.,
+            AHPRA, Medical Board of Australia).
+          </li>
+          <li>Medicare Benefits Schedule (MBS) requirements.</li>
+        </ul>
+
+        <p>
+          <strong>3.4 Data Handling and Storage:</strong> You must ensure that
+          any patient data input into NoteMate is handled in accordance with
+          privacy laws. You are responsible for ensuring that the patient data
+          you provide is relevant and necessary for the intended scribing or
+          document generation.
+        </p>
+
+        <p>
+          <strong>3.5 Security:</strong> You must take reasonable steps to
+          ensure the security of your own systems and devices used to access
+          NoteMate and protect your login credentials.
+        </p>
+
+        <p>
+          <strong>3.6 No Therapeutic Use:</strong> You agree that NoteMate and
+          its outputs are for administrative support only and are not to be used
+          for diagnostic purposes, clinical decision-making, or as a substitute
+          for professional medical judgment.
+        </p>
+
+        <h4>4. Our Responsibilities</h4>
+        <p>
+          <strong>4.1 Service Provision:</strong> NoteMate will use commercially
+          reasonable efforts to provide the Service with due care and skill, in
+          accordance with these Terms.
+        </p>
+        <p>
+          <strong>4.2 Data Security:</strong> We employ robust security
+          measures, including encryption (at rest and in transit), stringent
+          access controls, and regular security audits, to protect your data,
+          particularly sensitive health information. We are committed to
+          safeguarding your data in accordance with our Privacy Policy.
+        </p>
+        <p>
+          <strong>4.3 Data Location:</strong> All patient data processed by
+          NoteMate for Australian users will be stored on servers located within
+          Australia.
+        </p>
+        <p>
+          <strong>4.4 Compliance:</strong> NoteMate will strive to maintain
+          compliance with relevant Australian privacy laws and healthcare
+          industry standards applicable to a software provider.
+        </p>
+
+        <h4>5. Information We Collect</h4>
+        <p>
+          When you use NoteMate, we collect information including, but not
+          limited to, the following:
+        </p>
+        <ul>
+          <li>Your name</li>
+          <li>Email address</li>
+          <li>Phone number</li>
+          <li>
+            Patient information (as provided by you for scribing and document
+            generation purposes)
+          </li>
+          <li>Credit card information (for paid plans)</li>
+          <li>Other information as detailed in our Privacy Policy.</li>
+        </ul>
+
+        <h4>6. Service Plans</h4>
+        <p>
+          NoteMate offers various service plans to meet the needs of different
+          users:
+        </p>
+        <ul>
+          <li>
+            <strong>Free Plan:</strong> Provides basic access to the Service
+            with limited features and usage.
+          </li>
+          <li>
+            <strong>Practitioner Plan:</strong> Designed for individual
+            healthcare practitioners, offering expanded features and higher
+            usage limits.
+          </li>
+          <li>
+            <strong>Enterprise Plan:</strong> Tailored for larger healthcare
+            practices or organisations, providing comprehensive features,
+            enhanced support, and customisable options.
+          </li>
+        </ul>
+        <p>
+          Specific features, usage limits, and pricing for each plan are
+          detailed on our website at [Link to NoteMate Pricing Page, e.g.,
+          notemate.com.au/pricing].
+        </p>
+
+        <h4>7. Intellectual Property</h4>
+        <p>
+          <strong>7.1 NoteMate IP:</strong> All intellectual property rights in
+          the Service, including the website, software, algorithms, designs,
+          trademarks, and content (excluding User Content), are owned by or
+          licensed to NoteMate (FJBonacci). You are granted a limited,
+          non-exclusive, non-transferable, revocable license to use the Service
+          for its intended purpose.
+        </p>
+        <p>
+          <strong>7.2 User Content:</strong> You retain ownership of any data,
+          information, or content (including patient health information) that
+          you input or upload to the Service (&quot;User Content&quot;). You
+          grant NoteMate a worldwide, non-exclusive, royalty-free license to
+          use, reproduce, modify, adapt, publish, and display the User Content
+          solely for the purpose of providing, maintaining, and improving the
+          Service to you.
+        </p>
+        <p>
+          <strong>7.3 De-identified Data:</strong> You agree that NoteMate may
+          de-identify and aggregate User Content for the purpose of improving
+          its algorithms, developing new features, and conducting research and
+          analysis related to healthcare documentation trends. This
+          de-identified and aggregated data will not contain any information
+          that can reasonably identify an individual.
+        </p>
+
+        <h4>8. Payment Terms</h4>
+        <p>
+          <strong>8.1 Fees:</strong> Access to certain features of the Service
+          (e.g., Practitioner and Enterprise plans) requires payment of fees.
+          You agree to pay all applicable fees as described on our website or
+          within the Service. All fees are in Australian Dollars (AUD) unless
+          otherwise specified.
+        </p>
+        <p>
+          <strong>8.2 Billing:</strong> Fees will be billed in advance on a
+          recurring basis (e.g., monthly or annually) or as otherwise agreed.
+          You authorise NoteMate to charge your nominated payment method for all
+          applicable fees.
+        </p>
+        <p>
+          <strong>8.3 Refunds:</strong> [Insert your refund policy here. E.g.,
+          &quot;Fees are generally non-refundable, except where required by
+          Australian Consumer Law.&quot; or &quot;We offer a [number]-day
+          money-back guarantee for new subscriptions.&quot;]
+        </p>
+        <p>
+          <strong>8.4 Cancellations:</strong> You may cancel your subscription
+          at any time. Cancellation will take effect at the end of your current
+          billing period, and you will not be charged for subsequent periods.
+        </p>
+
+        <h4>9. Australian Consumer Law (ACL)</h4>
+        <p>
+          <strong>9.1 Consumer Guarantees:</strong> Nothing in these Terms is
+          intended to exclude, restrict, or modify any rights you may have under
+          the Competition and Consumer Act 2010 (Cth), including the Australian
+          Consumer Law, which cannot be excluded, restricted, or modified by
+          agreement.
+        </p>
+        <p>
+          <strong>9.2 Services:</strong> Our services come with guarantees that
+          cannot be excluded under the Australian Consumer Law. For major
+          failures with the service, you are entitled to:
+        </p>
+        <ul>
+          <li>cancel your service contract with us; and</li>
+          <li>
+            a refund for the unused portion, or compensation for its reduced
+            value.
+          </li>
+        </ul>
+        <p>
+          You are also entitled to be compensated for any other reasonably
+          foreseeable loss or damage. If the failure does not amount to a major
+          failure, you are entitled to have the failure rectified in a
+          reasonable time. If this is not done, you are entitled to cancel the
+          contract and obtain a refund for the unused portion of the contract.
+        </p>
+
+        <h4>10. Disclaimers and Limitation of Liability</h4>
+        <p>
+          <strong>10.1 No Medical Advice:</strong> NoteMate is an administrative
+          tool. It does not provide medical advice, diagnosis, or treatment. You
+          acknowledge that reliance on any information provided by NoteMate for
+          clinical decision-making is at your own risk.
+        </p>
+        <p>
+          <strong>10.2 Disclaimer of Warranties:</strong> To the maximum extent
+          permitted by law, NoteMate disclaims all warranties, express or
+          implied, including, but not limited to, implied warranties of
+          merchantability and fitness for a particular purpose. We do not
+          warrant that the Service will be uninterrupted, error-free, or free of
+          viruses or other harmful components.
+        </p>
+        <p>
+          <strong>10.3 Limitation of Liability:</strong> To the maximum extent
+          permitted by law, NoteMate (FJBonacci), its directors, employees, and
+          agents will not be liable for any indirect, incidental, special,
+          consequential, or punitive damages, or any loss of profits or
+          revenues, whether incurred directly or indirectly, or any loss of
+          data, use, goodwill, or other intangible losses, resulting from:
+        </p>
+        <ul>
+          <li>
+            your access to or use of or inability to access or use the Service;
+          </li>
+          <li>any conduct or content of any third party on the Service;</li>
+          <li>any content obtained from the Service; and</li>
+          <li>
+            unauthorised access, use, or alteration of your transmissions or
+            content, whether based on warranty, contract, tort (including
+            negligence), or any other legal theory, whether or not NoteMate has
+            been informed of the possibility of such damage.
+          </li>
+        </ul>
+        <p>
+          <strong>10.4 Total Liability:</strong> To the maximum extent permitted
+          by law, in no event shall the aggregate liability of NoteMate
+          (FJBonacci) for all claims relating to the Service exceed the amount
+          you paid to NoteMate for the Service in the twelve (12) months
+          preceding the claim.
+        </p>
+
+        <h4>11. Indemnification</h4>
+        <p>
+          You agree to indemnify, defend, and hold harmless NoteMate
+          (FJBonacci), its affiliates, officers, directors, employees, and
+          agents from and against any and all claims, liabilities, damages,
+          losses, costs, expenses, or fees (including reasonable attorneys&apos;
+          fees) arising from or relating to:
+        </p>
+        <ul>
+          <li>Your access to or use of the Service;</li>
+          <li>Your violation of these Terms;</li>
+          <li>
+            Your violation of any applicable law or regulation, including
+            privacy and health record legislation;
+          </li>
+          <li>Your negligence or willful misconduct;</li>
+          <li>
+            Any claim that your User Content or the use of User Content by
+            NoteMate infringes the rights of a third party.
+          </li>
+        </ul>
+
+        <h4>12. Termination</h4>
+        <p>
+          <strong>12.1 Termination by You:</strong> You may terminate your
+          account at any time by contacting [Your contact email for account
+          termination].
+        </p>
+        <p>
+          <strong>12.2 Termination by NoteMate:</strong> NoteMate may terminate
+          or suspend your account and access to the Service immediately, without
+          prior notice or liability, for any reason whatsoever, including
+          without limitation if you breach these Terms.
+        </p>
+        <p>
+          <strong>12.3 Effect of Termination:</strong> Upon termination, your
+          right to use the Service will immediately cease. All provisions of
+          these Terms which by their nature should survive termination shall
+          survive termination, including, without limitation, ownership
+          provisions, warranty disclaimers, indemnity, and limitations of
+          liability.
+        </p>
+
+        <h4>13. Governing Law and Jurisdiction</h4>
+        <p>
+          These Terms shall be governed and construed in accordance with the
+          laws of Victoria, Australia, without regard to its conflict of law
+          provisions. You agree to submit to the exclusive jurisdiction of the
+          courts located in Victoria, Australia, for the resolution of any
+          disputes.
+        </p>
+
+        <h4>14. Changes to Terms</h4>
+        <p>
+          NoteMate reserves the right, at its sole discretion, to modify or
+          replace these Terms at any time. If a revision is material, we will
+          provide at least [Number] days&apos; notice prior to any new terms
+          taking effect. What constitutes a material change will be determined
+          at our sole discretion. By continuing to access or use our Service
+          after those revisions become effective, you agree to be bound by the
+          revised terms.
+        </p>
+
+        <h4>15. General Provisions</h4>
+        <p>
+          <strong>15.1 Entire Agreement:</strong> These Terms, together with our
+          Privacy Policy, constitute the entire agreement between you and
+          NoteMate regarding the Service.
+        </p>
+        <p>
+          <strong>15.2 Severability:</strong> If any provision of these Terms is
+          held to be invalid or unenforceable, that provision will be limited or
+          eliminated to the minimum extent necessary, and the remaining
+          provisions of these Terms will remain in full force and effect.
+        </p>
+        <p>
+          <strong>15.3 Waiver:</strong> No waiver of any term of these Terms
+          shall be deemed a further or continuing waiver of such term or any
+          other term, and NoteMate&apos;s failure to assert any right or
+          provision under these Terms shall not constitute a waiver of such
+          right or provision.
+        </p>
+        <p>
+          <strong>15.4 Assignment:</strong> You may not assign or transfer these
+          Terms, by operation of law or otherwise, without NoteMate&apos;s prior
+          written consent. Any attempt by you to assign or transfer these Terms
+          without such consent will be null and void. NoteMate may freely assign
+          or transfer these Terms without restriction.
+        </p>
+
+        <h4>16. Contact Us</h4>
+        <p>
+          If you have any questions about these Terms, please contact us at:
+        </p>
+        <ul>
+          <li>FJBonacci (NoteMate.com.au)</li>
+          <li>[Your business address in Victoria]</li>
+          <li>Email: [Your general support email for NoteMate.com.au]</li>
+          <li>Phone: [Your business phone number for NoteMate.com.au]</li>
+        </ul>
+      </div>
+    </section>
+  );
+};
+
+export default TermsAndConditions;

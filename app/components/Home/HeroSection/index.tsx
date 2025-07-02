@@ -14,16 +14,12 @@ const HeroSection = () => {
         <div className={styles.heroLeft}>
           <div className={styles.textWrapper}>
             <h1>
-              Your Business <br />
-              Our <span className={styles.highlightText}>Digital Strategy</span>
+              FJbonacci: Redefining{" "}
+              <span className={styles.highlightText}>Intelligence</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium consequatur cum commodi molestias laudantium quas
-              aspernatur illum, accusamus modi temporibus? Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Amet similique corrupti natus
-              laboriosam obcaecati hic expedita praesentium odit repudiandae
-              repellat.
+              Unlock the Future of Innovation with Cutting-Edge Generative AI
+              Products.
             </p>
           </div>
           <Link href={""} className="ctaBtn">
@@ -32,7 +28,7 @@ const HeroSection = () => {
           </Link>
         </div>
         <Image
-          src={"/images/home/hero-image.png"}
+          src={"/images/home/hero.jpg"}
           alt={"Hero"}
           className={styles.heroImage}
           width={500}
