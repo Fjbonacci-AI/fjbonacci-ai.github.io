@@ -22,8 +22,8 @@ const HeroSection = () => {
               Products.
             </p>
           </div>
-          <Link href={""} className="ctaBtn">
-            <span>Projects</span>
+          <Link href={"https://app.fjbonacci.com/"} className="ctaBtn">
+            <span>Echo Note</span>
             <GoArrowUpRight className="ctaArrow" />
           </Link>
         </div>

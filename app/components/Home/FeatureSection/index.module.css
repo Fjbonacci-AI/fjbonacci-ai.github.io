@@ -3,7 +3,6 @@
 }
 
 .headerTextSection > p {
-  margin-top: 10px;
   font-size: 18px;
 }
 
@@ -17,7 +16,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
 }
 
 .header > p {
@@ -26,14 +24,14 @@
 
 .featureGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
 }
 
 .feature {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
   background-color: #e3e1ef;
   border-radius: 20px;
   padding: 30px;

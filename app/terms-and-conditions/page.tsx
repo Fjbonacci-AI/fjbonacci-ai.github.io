@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
     <section className={styles.mainDiv}>
       <div className="boxWrapper">
         <h1>Terms of Service for NoteMate.com.au</h1>
-        <h4>Effective Date: [Insert Date - e.g., 10 June 2025]</h4>
+        <h4>Effective Date: 01 July 2025</h4>
         <p>
           Welcome to NoteMate.com.au! These Terms of Service (&quot;Terms&quot;)
           govern your access to and use of the NoteMate website, services, and

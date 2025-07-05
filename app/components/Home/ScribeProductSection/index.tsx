@@ -4,7 +4,7 @@ import styles from "./index.module.css";
 
 const ScribeProductSection = () => {
   return (
-    <section className={styles.mainDiv}>
+    <section className={styles.mainDiv} id="projects">
       <div className={`boxWrapper ${styles.contentWrapper}`}>
         <div className={styles.header}>
           <h4>What We Do (Our Products/Solutions)</h4>

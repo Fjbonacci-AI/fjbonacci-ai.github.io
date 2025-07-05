@@ -30,7 +30,7 @@ const Footer = () => {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={""}>Echo Note</Link>
+              <Link href={"https://app.fjbonacci.com/"}>Echo Note</Link>
             </li>
             <li>
               <Link href={"/privacy-policy"}>Privacy Policy</Link>

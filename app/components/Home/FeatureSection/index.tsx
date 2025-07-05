@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./index.module.css";
-import Image from "next/image";
 
 const WhyUsSection = () => {
   const features = [
@@ -40,24 +39,12 @@ const WhyUsSection = () => {
       <div className={`boxWrapper ${styles.contentWrapper}`}>
         <div className={styles.header}>
           <h4>Why Choose Fjbonacci?</h4>
-          {/* <p>
-            Fjbonacci specializes in developing bespoke and off-the-shelf
-            Generative AI products across various domains. Our solutions are
-            designed to enhance creativity, automate complex tasks, and generate
-            valuable insights.
-          </p> */}
         </div>
 
         <div className={styles.featureGrid}>
           {features.map((feature, index) => (
             <div key={index} className={styles.feature}>
               <h4>{feature.title}</h4>
-              <Image
-                src={feature.img}
-                alt={feature.title}
-                width={500}
-                height={500}
-              />
               <p>{feature.description}</p>
             </div>
           ))}
